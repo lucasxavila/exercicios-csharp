@@ -17,5 +17,7 @@ class Program
         Console.WriteLine("\n----------------------------\n");
 
         Console.WriteLine("Exercício Três\n");
+        var exercicio3 = new ExercicioTres();
+        exercicio3.Executar();
     }
 }
