@@ -1,6 +1,6 @@
 namespace fundamentosCsharp;
 
-class ExercicioUm
+class Exercicio1
 {
     public void Executar()
     {

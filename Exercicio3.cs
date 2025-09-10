@@ -1,6 +1,6 @@
 namespace fundamentosCsharp;
 
-class ExercicioTres
+class Exercicio3
 {
 	public void Executar()
 	{
