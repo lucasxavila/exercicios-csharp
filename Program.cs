@@ -25,5 +25,13 @@ class Program
         Console.WriteLine("Exercício 4\n");
         var exercicio4 = new Exercicio4();
         exercicio4.Executar();
+
+        Console.WriteLine("\n----------------------------\n");
+
+        Console.WriteLine("Exercício 5\n");
+        var exercicio5 = new Exercicio5();
+        exercicio5.Executar();
+
+        Console.ReadKey();
     }
 }

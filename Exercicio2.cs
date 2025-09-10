@@ -11,6 +11,5 @@ class Exercicio2
         string sobrenome = Console.ReadLine();
 
         Console.WriteLine(primeiroNome + " " + sobrenome);
-        Console.ReadKey();
     }
 }

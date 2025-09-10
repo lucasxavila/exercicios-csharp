@@ -8,6 +8,5 @@ class Exercicio1
         string nome = Console.ReadLine();
 
         Console.WriteLine($"0lá, {nome}! Seja muito bem-vindo!");
-        Console.ReadKey();
     }
 }

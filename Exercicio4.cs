@@ -9,7 +9,5 @@ class Exercicio4
 
         int quantidadeDeCaracteres = caracteres.Count(c => char.IsLetterOrDigit(c));
         Console.WriteLine($"A quantidade de caracteres é: {quantidadeDeCaracteres}.");
-
-        Console.ReadKey();
     }
 }

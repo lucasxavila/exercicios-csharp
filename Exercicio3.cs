@@ -26,7 +26,5 @@ class Exercicio3
 
 		double resultadoMedia = (valor1 + valor2) / 2;
 		Console.WriteLine($"Média: {resultadoMedia}");
-
-		Console.ReadKey();
 	}
 }
