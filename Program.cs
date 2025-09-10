@@ -32,6 +32,12 @@ class Program
         var exercicio5 = new Exercicio5();
         exercicio5.Executar();
 
+        Console.WriteLine("\n----------------------------\n");
+
+        Console.WriteLine("Exercício 6\n");
+        var exercicio6 = new Exercicio6();
+        exercicio6.Executar();
+
         Console.ReadKey();
     }
 }
