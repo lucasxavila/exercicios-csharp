@@ -4,11 +4,28 @@ class Exercicio3
 {
 	public void Executar()
 	{
-		Console.Write("Digite um valor (pode ser decimal): ");
-		double valor1 = double.Parse(Console.ReadLine());
+        double valor1;
+        double valor2;
+		bool conversao1;
+		bool conversao2;
 
-		Console.Write("Digite outro valor (pode ser decimal): ");
-		double valor2 = double.Parse(Console.ReadLine());
+        do
+		{
+            Console.Write("Digite um valor (pode ser decimal): ");
+            string entrada1 = Console.ReadLine();
+
+            Console.Write("Digite outro valor (pode ser decimal): ");
+            string entrada2 = Console.ReadLine();
+
+            conversao1 = double.TryParse(entrada1, out valor1);
+            conversao2 = double.TryParse(entrada2, out valor2);
+
+            if (!conversao1 || !conversao2)
+            {
+                Console.WriteLine("\nEntrada inválida! Digite apenas números.\n");
+                continue;
+            }
+        } while (!conversao1 || !conversao2);
 
 		Console.WriteLine($"\nSoma: {valor1 + valor2}");
 		Console.WriteLine($"Subtração: {valor1 - valor2}");
